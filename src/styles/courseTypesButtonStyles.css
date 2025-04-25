@@ -1,0 +1,35 @@
+/* Enhanced styles for Edit and Delete buttons in CourseTypes component */
+
+.course-types-button-group button.button-primary {
+  background-color: #28a745; /* green */
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.4);
+}
+
+.course-types-button-group button.button-primary:hover {
+  background-color: #218838;
+  box-shadow: 0 6px 12px rgba(33, 136, 56, 0.6);
+  transform: translateY(-2px);
+}
+
+.course-types-button-group button.button-primary:active {
+  background-color: #1e7e34;
+  box-shadow: 0 2px 6px rgba(30, 126, 52, 0.7);
+  transform: translateY(0);
+}
+
+.course-types-button-group button.button-secondary {
+  background-color: #dc3545; /* red */
+  box-shadow: 0 4px 8px rgba(220, 53, 69, 0.4);
+}
+
+.course-types-button-group button.button-secondary:hover {
+  background-color: #c82333;
+  box-shadow: 0 6px 12px rgba(200, 35, 51, 0.6);
+  transform: translateY(-2px);
+}
+
+.course-types-button-group button.button-secondary:active {
+  background-color: #bd2130;
+  box-shadow: 0 2px 6px rgba(189, 33, 48, 0.7);
+  transform: translateY(0);
+}

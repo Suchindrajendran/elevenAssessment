@@ -1,0 +1,26 @@
+/* Styled select for better appearance and responsiveness */
+.styled-select {
+  padding: 8px 12px;
+  border: 1px solid #007bff;
+  border-radius: 6px;
+  background-color: #f0f8ff;
+  color: #333;
+  font-size: 1em;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  width: 200px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.styled-select:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+  outline: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .styled-select {
+    width: 100%;
+  }
+}
